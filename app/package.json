@@ -7,10 +7,12 @@
     "kth-backend": "www.js"
   },
   "dependencies": {
+    "app-root-path": "^3.0.0",
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
+    "morgan": "^1.10.0",
     "mysql": "^2.18.1"
   },
   "scripts": {
