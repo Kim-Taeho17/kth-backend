@@ -32,4 +32,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use("/", home);
 
+
+// mdb
+const mdb = require("./src/mdb");
+mdb.connect();
+
+
 module.exports = app;

@@ -1,6 +1,7 @@
 "use strict";
 
-const UserStorage = require("./UserStorage");
+// const UserStorage = require("./UserStorage");
+const UserStorage = require("./UserStorageMongo");
 
 class User {
   constructor(body) {
